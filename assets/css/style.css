@@ -11,7 +11,6 @@ body {
 /* Header */
 header {
     padding: 20px 35px;
-    background-color: ;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -22,13 +21,13 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: ;
+    color: white;
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);     
 }
 header a {
     text-decoration: none;
-    color: ;
+    color: white;
 }
 header nav {      
     margin: 7px 0;
@@ -48,17 +47,16 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background: ;
-  color: ;
+  background: black;
   border-radius: 15px;
   text-shadow: none;
 }
 
 /* Footer */
 footer {
-    background: ;
+    background: rgba(0, 0, 0, .9);
     width: 100%;
-    padding: 40px 35px;
+    padding: 20px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -67,37 +65,45 @@ footer {
 footer div {
     line-height: 1.5;
     text-align: right;
+    color: white
 }
 
 h2 {
     font-size: 30px;
-    color: red;    
+    color: white;    
     text-decoration: underline;
     display: flex;
     justify-content: center;
     padding: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }  
 
 /* About Me */
 .me {
     margin: 0px auto;
-    padding-bottom: 20px;
     width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgba(210,180,140,.9);
+    border-radius: 15px;
 }
 .me img {
     width: 100%;
-    height: auto;    
+    height: auto; 
+    display: flex;
+    border-radius: 15px 0 0 15px;
 }
 
 .me p {
+    font-size: 25px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     padding: 10px;
     text-align: center;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Work */
@@ -105,28 +111,33 @@ h2 {
     display: flex;
     flex: wrap;
     justify-content: space-between;
+    background-color: rgba(210,180,140,.9);
 }
 
 .works h3 {
     display: flex;
+    padding: 20px 0 0 0;
     justify-content: center;
 }
 
 .works img {
     width: 100%;
     height: auto;
-    padding: 20px;
-    
+    padding: 20px;    
 }
 
 
 /* Contact */
 
 .contact {
-    color: seagreen;
+    color: white;
     display: flex;
     justify-content: space-around;
     text-align: center;
+    padding: 20px 0;
+    background-color: rgba(210,180,140,.9);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
 .contact li{
@@ -134,5 +145,5 @@ h2 {
 }
 .contact a {
     text-decoration: none;
-    color: seagreen;
+    color: white;
 }
