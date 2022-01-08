@@ -75,11 +75,49 @@ h2 {
     text-decoration: underline;
     display: flex;
     justify-content: center;
+    padding: 20px;
   }  
 
 /* About Me */
+.me {
+    margin: 0px auto;
+    padding-bottom: 20px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.me img {
+    width: 100%;
+    height: auto;    
+}
+
+.me p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
 
 /* Work */
+.works {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+
+.works h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.works img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    
+}
 
 
 /* Contact */
