@@ -69,46 +69,26 @@ footer div {
     text-align: right;
 }
 
-section {
-    padding: 60px;
-}
-
-article {
-    padding: 60px;
-}
-
 h2 {
     font-size: 30px;
-    color: ;    
-    border-bottom: 3px solid;
-  }
-
-.flex-row {
+    color: red;    
+    text-decoration: underline;
     display: flex;
-}  
+    justify-content: center;
+  }  
 
 /* About Me */
 
 /* Work */
-.works {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.works img {
-    width: 35%;
-}
-.work-img {
-    flex: 1 12%;
-    margin-right: 20px;
-}
+
 
 /* Contact */
 
 .contact {
+    color: seagreen;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .contact li{
@@ -116,4 +96,5 @@ h2 {
 }
 .contact a {
     text-decoration: none;
+    color: seagreen;
 }
