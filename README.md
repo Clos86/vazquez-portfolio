@@ -2,7 +2,7 @@
 This is the professional portfolio for Carlos Vazquez
 
 ## Motivation
-To showcase my projects and skills with computer codign.
+To showcase my projects and skills with computer coding.
 
 ## Code Style
 - HTML
